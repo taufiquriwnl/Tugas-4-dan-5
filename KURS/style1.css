@@ -1,0 +1,9 @@
+table{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 4px;
+}
+table td{
+    text-align: center;
+    border: 1px solid;
+    font-style: ;
+}

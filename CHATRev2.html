@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <title>Chat Sederhana</title>
+    <style>
+        #isi{
+            height: 20px;
+            border: px solid;
+        }
+    
+    </style>
+</head>
+<body>
+    <p id="hasil">CHAT SEDERHANA</p>
+        <table>
+            <tr>
+                <td>
+                <input type="text" name="isi" id="isi">
+                </td>
+                <td>
+                <button id="submit" onclick="chat()">Kirim</button>
+                </td>
+            </tr>
+        </table>
+
+    <script type="text/javascript">
+    function chat(){
+        let x = document.getElementById("isi").value;
+        let y = document.getElementById("hasil");
+
+        y.innerHTML = y.innerHTML + "<br>" + x;
+    }
+    </script>
+</body>
+</html>
+<!-- Referensi W3School -->
